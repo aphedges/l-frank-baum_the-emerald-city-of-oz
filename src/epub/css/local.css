@@ -29,3 +29,9 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+/* Preface top margin */
+section[epub|type~="preface"]{
+	margin-top: 20vh;
+}
+/* End preface top margin */
