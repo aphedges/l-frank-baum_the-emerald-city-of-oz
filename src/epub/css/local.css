@@ -30,6 +30,22 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
+/* Custom dedication */
+section[epub|type~="dedication"] > p{
+	font-variant: all-small-caps;
+}
+
+section[epub|type~="dedication"] p > em{
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+section[epub|type~="dedication"] p > strong{
+	font-size: larger;
+	font-variant: all-small-caps;
+}
+/* End custom dedication */
+
 /* Preface top margin */
 section[epub|type~="preface"]{
 	margin-top: 20vh;
