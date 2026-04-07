@@ -99,3 +99,10 @@ p span.i4{
 	text-indent: -1em;
 }
 /* End poetry */
+
+/* Letter */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* End letter */
